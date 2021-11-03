@@ -1,0 +1,53 @@
+/* Universal */
+
+html, body {
+    margin: 0;
+    background-color: #0A0A0A;
+    /* font-family: 'Zen Antique', serif; */
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Header grid */
+
+.main-name-title span {
+    text-decoration: underline;
+}
+
+    .main-name-title span.active-name {
+        font-size: 40px;
+    }
+
+.nav-bar-main {
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    place-items: center;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    color: white;
+    margin-top: -10px;
+    transition: background 0.5s ease;
+}
+
+.nav-bar-main.active{
+    background: black;
+}
+
+    .nav-bar-main a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+.main-nav {
+    font-size: 25px;
+}
+
+/* pseudo */
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+

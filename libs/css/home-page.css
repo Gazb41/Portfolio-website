@@ -1,0 +1,74 @@
+/* banner */
+
+.banner {
+    background: url('../../media/leeds-station.jpg') repeat fixed 100%;
+    margin-top: -70px;
+}
+
+.banner h2 {
+    font-size: 80px;
+    text-align: right;
+    padding: 300px 50px;
+    color: white;
+    font-weight: bold;
+}
+
+/* information */
+
+.information {
+    /* background-color: #6C757D; */
+    background: url('../../media/tiles.jpg') repeat fixed 100%;
+    text-align: center;
+    padding: 50px;
+    margin-top: -70px;
+    font-size: 30px;
+    color: white;
+}
+
+/* skills */
+
+.skills h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    place-items: center;
+    gap: 1.5em;
+    color: white;
+    margin: 30px 0;
+}
+
+.skills-grid div {
+    border: 2px solid white;
+    background-color: #6C757D;
+    padding: 20px;
+}
+
+.skills-grid p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills-grid a {
+    color: white;
+    text-decoration: none;
+}
+
+    .skills-grid a:hover {
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+/* footer */
+
+.footer {
+    color: white;
+    text-align: center;
+    
+}
